@@ -1,9 +1,7 @@
-<?php
+<?php namespace MyLanguageApi\Languages;
 
-use Opis\Database\Database;
-use Opis\Database\Connection;
 
-namespace
+use MyLanguageApi\Database\DatabaseConnection as DatabaseConnection;
 
 class Language
 {

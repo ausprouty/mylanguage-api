@@ -1,4 +1,4 @@
-<?php
+<?php namespace MyLanguageApi\Database;
 
 use Opis\Database\Database;
 use Opis\Database\Connection;
@@ -11,6 +11,8 @@ class DatabaseConnection
 
     public function __construct()
     {
+        echo (DATABASE);
+        echo (USERNAME);
         $this->connection = new Connection([
             'driver' => 'mysql',
             'host' => DBHOST,

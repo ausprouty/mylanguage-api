@@ -1,6 +1,6 @@
 <?php
 
-require 'vendor/autoload.php'; // Assuming you have Opis ORM installed via Composer
+// Assuming you have Opis ORM installed via Composer
 
 use Opis\Database\Database;
 use Opis\Database\Connection;
