@@ -11,20 +11,13 @@ class DatabaseConnection
 
     public function __construct()
     {
-        echo (DATABASE);
-        echo (USERNAME);
-        $this->connection = new Connection([
-            'driver' => 'mysql',
-            'host' => DBHOST,
-            'database' => DATABASE,
-            'username' => USERNAME,
-            'password' => PASSWORD,
-            'charset' => CHARSET,
-            'collation' => COLLATION,
-            'prefix' =>PREFIX
-        ]);
-
-        Database::setConnection($this->connection);
+        $this->connection = new Connection(
+            'mysql:host=localhost;dbname=' . DATABASE  ,
+            USERNAME,
+            PASSWORD
+        );
+        //print_r ($this->connection);
+        DatabaseConnection::setConnection($this->connection);
     }
 
     public function getConnection()

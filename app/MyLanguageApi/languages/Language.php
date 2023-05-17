@@ -2,8 +2,11 @@
 
 
 use MyLanguageApi\Database\DatabaseConnection as DatabaseConnection;
+use Opis\Database\Database;
+use Opis\Database\Connection;
+use Opis\Database\SQL\Select;
 
-class Language
+class Language extends Entity implements IMabbableEntity
 {
     protected $connection;
 
