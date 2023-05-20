@@ -1,4 +1,4 @@
-<?php namespace MyLanguageApi\Database;
+<?php namespace App\MyLanguageApi\Database;
 
 use Opis\Database\Database;
 use Opis\Database\Connection;
