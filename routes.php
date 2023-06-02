@@ -16,6 +16,7 @@ get('/mylanguage-api/test3', 'app/MyLanguageApi/views/test3.php');
 get('/mylanguage-api/test4', 'app/MyLanguageApi/views/test4.php');
 get('/mylanguage-api/test5', 'app/MyLanguageApi/views/test5.php');
 get('/mylanguage-api/test6', 'app/MyLanguageApi/views/test6.php');
+get('/mylanguage-api/test7', 'app/MyLanguageApi/views/test7.php');
 
 // any can be used for GETs or POSTs
 
